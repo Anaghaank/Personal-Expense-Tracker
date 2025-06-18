@@ -28,29 +28,26 @@ A PHP-based web application to help users manage and analyze personal expenses w
    git clone https://github.com/Anaghaank/Personal-Expense-Tracker.git
    cd Personal-Expense-Tracker
    ```
-3. **Import the SQL database**
+2. Import the SQL database
+Open phpMyAdmin or your preferred MySQL interface.
+Create a new database (e.g., expense_tracker).
+Import the PersonalExpenseTracker.sql file:
+a. Select the new database.
+b. Click the Import tab.
+c. Choose the PersonalExpenseTracker.sql file.
+d. Click Go to import.
 
-  Open phpMyAdmin or your MySQL interface
-  Create a new database (e.g., expense_tracker)
-  Import PersonalExpenseTracker.sql into it
+3. Update database configuration
 
-4. **Update database configuration**
-
-  Open config.php
-  Set your database host, username, password, and database name
-
-5. **Run the app locally**
-
-  Use XAMPP or WAMP and place the project in htdocs/
-  Visit http://localhost/Personal-Expense-Tracker in your browser
+4. Run the app locally
+Install and run XAMPP.
+Place the project folder inside the htdocs/ directory:
+Example path: C:/xampp/htdocs/Personal-Expense-Tracker
+Start Apache and MySQL via the XAMPP/WAMP Control Panel.
+Open your browser and visit: http://localhost/Personal-Expense-Tracker
 
 🙌 Contribution
-Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
+Pull requests are welcome.
 
 📜 License
 This project is open-source and free to use for educational or personal use.
-
-vbnet
-Copy code
-
-You can now copy this directly into a `README.md` file and push it to your GitHub repo. Let me know if you want badge support or to make it a little more styled!
