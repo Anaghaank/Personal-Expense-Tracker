@@ -48,11 +48,14 @@ A PHP-based web application to help users manage and analyze personal expenses w
    ```
 
 4. Run the app locally
-Install and run XAMPP.
-Place the project folder inside the htdocs/ directory:
-Example path: C:/xampp/htdocs/Personal-Expense-Tracker
-Start Apache and MySQL via the XAMPP/WAMP Control Panel.
-Open your browser and visit: http://localhost/Personal-Expense-Tracker
+
+   1. Install and run **XAMPP**.
+   2. Place the project folder inside the `htdocs/` directory  
+      - Example path: `C:/xampp/htdocs/Personal-Expense-Tracker`
+   3. Start **Apache** and **MySQL** via the XAMPP/WAMP Control Panel
+   4. Open your browser and visit:  
+      [http://localhost/Personal-Expense-Tracker](http://localhost/Personal-Expense-Tracker)
+
 
 🙌 Contribution
 Pull requests are welcome.
